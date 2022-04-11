@@ -14,6 +14,7 @@ body {
   font-family: Roboto, sans-serif;
   
 }
+
 /* основной цвет текста #212121; */
 /* вторичный цвет текста #757575; */
 /* третий цвет текста #FFFFFF */
@@ -27,7 +28,16 @@ body {
 /* третий цвет фона #2f303a; */
 
 /* logo */
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+
 .logo {
+  text-decoration: none;
   font-family: Raleway;
   color: var(--primary-text-color);
   font-weight: 700;
@@ -43,10 +53,17 @@ body {
   text-decoration: underline var(--accent-color);
 }
 
+/* page header */
+.page-header{
+ 
+}
+
 
 /* site-naw */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1,4;
@@ -54,6 +71,7 @@ body {
 }
 
 .site-nav .link {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 .studia {
@@ -63,13 +81,17 @@ body {
 .site-nav .link:focus {
   text-decoration: underline var(--accent-color);
 }
-.imail{color: var(--accent-color);
+.imail{
+  text-decoration: none;
+  color: var(--accent-color);
 }
 .imail:hover,
 .imail:focus{
 color:  var(--primary-text-color);
 }
-.telefon{color:var(--title-text-color);
+.telefon{
+  text-decoration: none;
+  color:var(--title-text-color);
 }
 .telefon:hover,
 .telefon:focus{
@@ -79,40 +101,60 @@ color:  var(--accent-color);
 
 /* Hero */
 .hero {
-  color: var(--secondary-text-color)
-  background-color: var(--third-bg-color)
+  color: var(--secondary-text-color);
+  background-color: var(--third-bg-color);
+  text-align: center;
 }
 .hero-title{
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1,36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 
 /* button */
 .button{
-    color: var(--secondary-text-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+  border-radius:4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button.primary{
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
+
 }
 
 /* section */
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: tomato;
+}
+.section.no-padding{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+
 .feature{
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,6 +163,8 @@ color:  var(--accent-color);
 }
 
 .section-title {
+  margin-top: 0px;
+  margin-bottom:30px;;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -128,10 +172,13 @@ color:  var(--accent-color);
   letter-spacing: 0.03em;
 }
 .team{
+margin-top: 0px;
+margin-bottom:50px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1,16;
 letter-spacing: 0.03em;
+text-align: center;
 }
 .team-card{
   font-weight: 500;
