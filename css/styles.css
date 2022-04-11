@@ -8,6 +8,7 @@
   --third-bg-color:#2f303a;
 }
 
+
 body { 
   color: var(--primary-text-color);
   background-color: var(--primery-bg-color);
@@ -134,7 +135,7 @@ color:  var(--accent-color);
 }
 
 .button.primary{
-    color: var(--secondary-text-color);
+    /* color: var(--secondary-text-color); */
     background-color: var(--accent-color);
 
 }
@@ -171,6 +172,9 @@ color:  var(--accent-color);
   line-height: 1,7;
   letter-spacing: 0.03em;
 }
+.work{
+  list-style: none;
+}
 .team{
 margin-top: 0px;
 margin-bottom:50px;
@@ -179,6 +183,9 @@ font-size: 36px;
 line-height: 1,16;
 letter-spacing: 0.03em;
 text-align: center;
+}
+.team-work{
+  list-style: none;
 }
 .team-card{
   font-weight: 500;
@@ -204,6 +211,7 @@ list-style: none;
 }
 
 .adres{
+  text-decoration: none;
   color: var(--secondary-text-color);
   font-style: normal;
   font-weight: 400;
@@ -217,6 +225,7 @@ list-style: none;
 }
 
 .contact-list{
+text-decoration: none;  
 color: var(--contacts-color);
 font-style: normal;
 font-weight: 400;
