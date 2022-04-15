@@ -97,6 +97,15 @@ letter-spacing: 0.03em;
 .imail:focus{
 color:  var(--primary-text-color);
 }
+
+.meil{
+  color: var(--title-text-color);
+}
+.meil:hover,
+.meil:focus{
+  color: var(--accent-color);
+}
+
 .telefon{
   text-decoration: none;
   color:var(--title-text-color);
@@ -225,6 +234,11 @@ margin-left: 50px;
   padding-bottom: 0px;
 }
 
+.lover-padding{
+  padding-top: 0px;
+  padding-bottom: 94px ;
+}
+
 
 
 .feature{
@@ -320,6 +334,9 @@ margin-left: 50px;
 
 .futerbg{
   background-color: var(--third-bg-color);
+}
+
+.futerpad{
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -333,7 +350,6 @@ padding: 0px;
 }
 
 .adres{
-  margin-bottom: 9px;
   text-decoration: none;
   color: var(--secondary-text-color);
   font-style: normal;
@@ -366,6 +382,9 @@ letter-spacing: 0.03em;
 .mail,
 .adresa{
   margin-bottom: 9px;
+}
+.adresa{
+  margin-top: 20px;
 }
 
 /* portfolio */
